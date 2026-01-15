@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <script defer src="js/date.js"></script>
+  <script defer src="js/index.js"></script>
+</head>
+<body>
+
+  <div class="date" id="date"></div>
+  <div class="page-bg bg-stage-1 page">
+  <main class="container">
+    <h1>Projects</h1>
+
+    <div class="projects-grid">
+      <div class="project">
+        <h3>Scalable Node.js Web Application on Azure using Terraform</h3>
+        <p class="project-intro">
+          This project is an Infrastructure as Code (IaC) deployment 
+           of a scalable web application on Microsoft Azure, built using Terraform.</p>
+
+           <br><button class="more-btn">More</button>
+
+           <div class="project-details hidden">
+            <p>
+              This project demonstrates how to deploy a scalable, production-style web application on Microsoft Azure using Terraform.
+              The infrastructure includes networking, security, and compute resources, all defined as code.
+              <br>
+              <h3>Components:</h3>
+              <li>Terraform: Infrastructure as code tool managing all Azure resources.</li>
+              <li>Azure Virtual Network (VNet) and Subnet: Isolate resources and manage network traffic.</li>
+              <li>Network Security Group (NSG): Firewall that allows HTTP traffic only on port 80.</li>
+              <li>VM Scale Set (VMSS): Ensures high availability, scalability, and consistent configuration of multiple Linux VMs.</li>
+              <li>Node.js Web Application: Serves HTTP requests, demonstrating a real-world workload.</li>
+            </p>
+            <ul>
+            <h3>Technologies used:</h3>
+                 -Terraform for IaC<br>
+                 -Microsoft Azure cloud platform<br>
+                 -Azure VM Scale Sets for scalable compute <br>
+                 -Azure Networking (VNet, Subnet, NSG) <br>
+                 -Linux (Ubuntu) as the operating system <br>
+                 -Node.js for the web application
+                 
+            </ul>
+            <div class="project-links">
+                  <a href="https://github.com/Poison-Iveey/terraform-web-deployment" target="_blank">GitHub Repo</a>
+                  <a href="http://108.143.65.125/" target="_blank">Live Deployment</a>
+                 </div>
+
+           </div>
+      </div>
+
+      <div class="project">
+        <h3>Lightweight Static Web App Deployed Using Docker and CI/CD</h3>
+        <p class="project-intro">
+           <p>This project is a client-side form validation web application. 
+              Its main purpose is to demonstrate real-time form validation using HTML, CSS, and JavaScript. 
+              Users enter data into fields (email, password, postal code, country, etc.), and the form validates 
+              the data as it’s typed, preventing submission until the data meets the required rules.</p>
+
+           <br><button class="more-btn">More</button>
+
+           <div class="project-details hidden">
+             <br>
+              <h3>Key Features:</h3>
+              <li>Live Validation: Fields validate in real time using JavaScript functions.</li>
+              <li>User-Friendly UI: Uses CSS for styling and form layout.</li>
+              <li>Standalone Web App: No server-side backend is required for the form itself.</li>
+              <li>Deployed with Docker: The site runs inside a Docker container so it can be deployed anywhere consistently.</li>
+              <li>CI/CD Ready: You set up a Jenkins pipeline (even if you don’t use it for this simple site) for deployment automation.</li>
+            </p>
+            <ul>
+              <br>
+            <h3>Technologies used:</h3>
+                 -Microsoft Azure VM <br>
+                 -Docker containers <br>
+                 -Jenkins pipeline
+                 
+            </ul>
+            <div class="project-links">
+                  <a href="https://github.com/Poison-Iveey/Form-validation-API-constraint-" target="_blank">GitHub Repo</a>
+                  <a href="http://20.93.139.231:84/" target="_blank">Live Deployment</a>
+                 </div>
+
+           </div>
+      </div>
+
+      <div class="project">
+        <h3>Working on more cool stuff</h3>
+        <p>Stay Tuned...</p>
+      </div>
+    </div>
+  </main>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+</body>
+</html>
+

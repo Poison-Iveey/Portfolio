@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yvette Christine — DevOps Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <script defer src="js/date.js"></script>
+  <script defer src="js/transitions.js"></script>
+  <script defer src="js/stack-toggle.js"></script>
+</head>
+<body>
+
+  <div class="date" id="date"></div>
+
+  <div class="page-bg bg-stage-1 page">
+    <main class="container hero">
+
+      <h1 class="name">Yvette Christine</h1>
+      <p class="role">DevOps and Cloud Engineer</p>
+
+      <!-- ABOUT CARD -->
+      <section class="card about-card">
+        <p>
+          I design and automate reliable infrastructure, build clean CI/CD pipelines,
+          and enjoy working where systems, people, and intent meet.
+        </p>
+      </section>
+
+      <!-- INTERESTS / OPEN SOURCE -->
+      <section class="grid interests">
+        <div class="card">
+          <h3>Open Source</h3>
+          <p>
+            Contributor to Fedora, CHAOSS, and legalDB initiatives.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Beyond Code</h3>
+          <p>
+            I love travel, storytelling and  I'm open to roles that allow
+            global collaboration and movement.
+          </p>
+        </div>
+      </section>
+
+      <!-- TECH STACK -->
+      <section class="tech">
+        <div class="stack-toggle">
+          <button class="active" data-target="devops">DevOps</button>
+          <button data-target="fullstack">Full-Stack</button>
+        </div>
+
+        <div class="projects-grid stack-grid show" id="devops">
+          <div class="project">Linux · Bash · Git</div>
+          <div class="project">Docker · Kubernetes</div>
+          <div class="project">Terraform · Ansible</div>
+          <div class="project">Azure · AWS</div>
+          <div class="project">Jenkins · GitHub Actions</div>
+        </div>
+
+        <div class="projects-grid stack-grid" id="fullstack">
+          <div class="project">HTML · CSS · JavaScript</div>
+          <div class="project">React</div>
+          <div class="project">Tailwind CSS</div>
+          <div class="project">Node.js</div>
+          <div class="project">REST APIs</div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+</body>
+</html>
