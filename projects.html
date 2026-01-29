@@ -64,6 +64,53 @@
            </div>
       </div>
 
+
+       <div class="project">
+        <h3>ToDo App </h3>
+        <p class="project-intro">
+           <p>
+            The To-Do app is a simple task management frontend app that allows users to
+            add new tasks, mark tasks as complete, delete tasks and allows task to persist locally via browser storage.
+            
+            <br>
+            Even though the app itself is simple, the portfolio focus is on DevOps, orchestration, and deployment, not complexity of features.
+           </p>
+
+           <br><button class="more-btn">More</button>
+
+           <div class="project-details hidden">
+             <br>
+              <h3>Key Features:</h3>
+              <li>Users can add and remove tasks</li>
+              <li>Toggles a task as complete</li>
+              <li>Local Persistence i.e., stores tasks in local storage</li>
+              <li>Modular code, Js is split into modules for logic, storage, DOM</li>
+              
+            </p>
+            <ul>
+              <br>
+            <h3>Technologies used:</h3>
+               <h4>Frontend:</h4>
+               <br>
+               HTML, CSS, JavaScript (Webpack)
+            
+               <h4><br>Deployment:</h4>
+               <br>
+               <li>Docker: Containerized the using a mulit-stage build: Node.js for building , Nginx for serving static files</li>
+               <li>Kubernetes (Minikube): Orchestrates containers, managees deployment, scaling and service networking</li>
+               <li>Jenkins: CI/CD pipeline to build docker images and deploy them to kubernetes</li>
+               <li>Terraform (AKS): IaC to define AKS clister & infractructure ( not applied in this project )</li>
+               <li>Ingress Controller: provides HTTP routing to the app using a hostname(todo.local)</li>
+            </ul>
+            <div class="project-links">
+                  <a href="https://github.com/Poison-Iveey/ToDo" target="_blank">GitHub Repo</a>
+                  <a href="https://poison-iveey.github.io/ToDo/" target="_blank">View To-Do App</a>
+
+
+                 </div>
+
+           </div>
+      </div>
       
 
 
