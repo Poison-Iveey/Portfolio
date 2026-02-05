@@ -36,13 +36,15 @@
           <button class="more-btn" data-modal="todo-modal">More</button>
         </div>
 
-        <!-- TERRAFORM AZURE -->
+        <!-- kathy's portfolio -->
         <div class="project">
-          <h3>Scalable Node.js App on Azure</h3>
-          <img src="https://via.placeholder.com/600x400" class="project-image">
-          <p>Infrastructure-as-Code deployment using Terraform on Azure.</p>
-          <button class="more-btn" data-modal="terraform-modal">More</button>
+          <h3>Portfolio Website</h3>
+          <img src="portfolio-images/kathy's portfolio.png" class="project-image">
+          <p>A minimal, responsive portfolio website built to feature projects.
+          </p>
+          <button class="more-btn" data-modal="form-modal">More</button>
         </div>
+
 
         <!-- FORM VALIDATION -->
         <div class="project">
@@ -50,6 +52,14 @@
           <img src="portfolio-images/form-validation.png" class="project-image">
           <p>Client-side form validation app deployed via Docker and Jenkins.</p>
           <button class="more-btn" data-modal="form-modal">More</button>
+        </div>
+
+         <!-- TERRAFORM AZURE -->
+        <div class="project">
+          <h3>Scalable Node.js App on Azure</h3>
+          <!-- <img src="https://via.placeholder.com/600x400" class="project-image"> -->
+          <p>Infrastructure-as-Code deployment using Terraform on Azure.</p>
+          <button class="more-btn" data-modal="terraform-modal">More</button>
         </div>
 
         <!-- PLACEHOLDER -->
@@ -120,6 +130,48 @@
     </div>
   </div>
 
+  <!-- website portfolio -->
+  <div class="project-modal hidden" id="form-modal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+
+      <h3>Portfolio Website</h3>
+      <p>The client wanted a website that is minimalistic, clean and cute while still being technically solid and interview ready.</p>
+      <ul>
+        <li>Google Sheets used as the lightweight backend</li>
+        <li>Intersection Observer API for scroll based reveal animations</li>
+        <li>Form submission via POST prevents page reload and handles submissions cleanly</li>
+      </ul>
+
+      <div class="project-links">
+        <a href="https://github.com/Poison-Iveey/kathy-s_website" target="_blank">GitHub</a>
+        <a href="https://poison-iveey.github.io/kathy-s_website/" target="_blank">Live Deployment</a>
+      </div>
+    </div>
+  </div>
+
+   <!-- Form Validation Modal -->
+  <div class="project-modal hidden" id="form-modal">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+
+      <h3>Form Validation App</h3>
+      <ul>
+        <li>Live client-side validation</li>
+        <li>Dockerized deployment</li>
+        <li>Jenkins CI pipeline</li>
+      </ul>
+
+      <div class="project-links">
+        <a href="https://github.com/Poison-Iveey/Form-validation-API-constraint-" target="_blank">GitHub</a>
+        <a href="https://poison-iveey.github.io/Form-validation-API-constraint-/" target="_blank">Live Deployment</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <!-- Terraform Modal -->
   <div class="project-modal hidden" id="terraform-modal">
     <div class="modal-content">
@@ -138,24 +190,6 @@
     </div>
   </div>
 
-  <!-- Form Validation Modal -->
-  <div class="project-modal hidden" id="form-modal">
-    <div class="modal-content">
-      <button class="modal-close">&times;</button>
-
-      <h3>Form Validation App</h3>
-      <ul>
-        <li>Live client-side validation</li>
-        <li>Dockerized deployment</li>
-        <li>Jenkins CI pipeline</li>
-      </ul>
-
-      <div class="project-links">
-        <a href="https://github.com/Poison-Iveey/Form-validation-API-constraint-" target="_blank">GitHub</a>
-        <a href="https://poison-iveey.github.io/Form-validation-API-constraint-/" target="_blank">Live Deployment</a>
-      </div>
-    </div>
-  </div>
 
   <nav class="nav">
     <a href="index.html">Home</a>
